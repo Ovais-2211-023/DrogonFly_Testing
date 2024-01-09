@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/studeolpyvpr/defaulttenant/testmanager_",
+  "defaultProject": {
+    "id": "549d70a7-282c-0000-5a12-0b464d4eea50",
+    "name": "TestingDragonFly",
+    "key": "TDF"
+  }
+}

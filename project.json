@@ -1,0 +1,148 @@
+{
+  "name": "DronFlyTesting",
+  "projectId": "1d91b03a-0c85-4e1c-9ffd-4e97102f3bc4",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.12.0-preview]",
+    "UiPath.Testing.Activities": "[23.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.12.0.0",
+  "projectVersion": "1.0.158491606",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8d3c9e3e-412d-4c5c-b2c7-0dfbbbd552a3",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b5011f92-3b4f-4fc6-8d8f-2c186cb29f73",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\VerifySliderText.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "81a66c29-79d9-40d0-9fbd-a42b76204c68",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\VerifySliderImage.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6f81fc54-a27b-4d4d-95b9-9c8faa417acc",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\VerifyNavBarText.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2f22bce8-55a9-4561-8a01-46a88c0da6f5",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\CommercialServices_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "95956f90-7182-4331-acd8-76443a37a8b0",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\Div_Images.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6d6474e8-4214-4ab6-87a1-46b89eae20a7",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\ResidentialServices_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4ab87f0d-a3a1-4a5d-85d3-f351796673b5",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\Footer_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "91920d91-ad7a-4ca7-b1e4-efb0dd75d4f4",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\Phone_Number.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a8540c4b-8469-4477-93c9-a24b5c373f47",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\Homepage\\Email.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "40cf36e6-8a5c-4320-a129-2be56ecaea48",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_RESIDENTIAL_SERVICES.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "24631cc3-8f7d-4752-9393-7062adfc3ee4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_RESIDENTIAL_SERVICES - Copy (2).xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7399a6ed-55ba-4fb5-8cd1-879ec1e88e77",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_COMMERCIAL_SERVICES.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5bc4bff9-4a42-405b-99d7-09b564b6aabb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_SUSTAINABILITY.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "724b3596-2b29-4830-adca-c48d3684d36c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_CONTACT_US.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
