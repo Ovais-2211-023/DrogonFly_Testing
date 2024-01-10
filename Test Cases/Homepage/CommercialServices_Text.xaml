@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="VerifySliderText" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1116,1410" sap2010:WorkflowViewState.IdRef="VerifySliderText_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="VerifySliderText" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="598,1410" sap2010:WorkflowViewState.IdRef="VerifySliderText_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -106,7 +106,6 @@
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1017" sap2010:WorkflowViewState.IdRef="Sequence_10">
             <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="Slidertxt" />
               <Variable x:TypeArguments="x:Boolean" Name="result" />
               <Variable x:TypeArguments="x:String" Name="divtxt" />
             </Sequence.Variables>
@@ -119,7 +118,7 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" DesignTimeRectangle="960, 341, 850, 227" DesignTimeScaleFactor="1" FriendlyName="'Commercial ServicesTail…'" FullSelectorArgument="&lt;webctrl class='HorizontalCard_textContainer__cJXw-' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='HorizontalCard_textContainer__cJXw-' parentid='root' tag='DIV' type='' aaname='' /&gt;" Guid="650822d8-1f89-4b21-a98e-a262364d3d30" InformativeScreenshot="e0f8e05056d086d67a0f5de7e8ad4511.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CvTextArea="192, 354, 382, 256" CvTextArgument="DER" CvType="Text" DesignTimeRectangle="205, 298, 659, 312" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl src='/static/media/image1.32c3c3df48b77fbd9441.jpg' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='/static/media/image1.32c3c3df48b77fbd9441.jpg' tag='IMG' type='' class='' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

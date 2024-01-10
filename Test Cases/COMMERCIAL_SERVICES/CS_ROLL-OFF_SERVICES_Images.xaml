@@ -1,30 +1,16 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,1022" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,1576" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
-      <x:String>System.Activities.Expressions</x:String>
-      <x:String>System.Activities.Validation</x:String>
-      <x:String>System.Activities.XamlIntegration</x:String>
       <x:String>Microsoft.VisualBasic</x:String>
-      <x:String>Microsoft.VisualBasic.Activities</x:String>
       <x:String>System</x:String>
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
-      <x:String>System.Data</x:String>
-      <x:String>System.Diagnostics</x:String>
       <x:String>System.Drawing</x:String>
-      <x:String>System.IO</x:String>
-      <x:String>System.Linq</x:String>
-      <x:String>System.Net.Mail</x:String>
-      <x:String>System.Xml</x:String>
-      <x:String>System.Xml.Linq</x:String>
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
-      <x:String>System.Windows.Markup</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>UiPath.UIAutomationCore.Contracts</x:String>
@@ -32,11 +18,7 @@
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
-      <x:String>UiPath.Testing</x:String>
-      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
-      <x:String>System.ComponentModel</x:String>
       <x:String>System.Reflection</x:String>
-      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -95,22 +77,24 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="546,957" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="546,1511" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Home" sap:VirtualizedContainerService.HintSize="484,846" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Commercial Services" sap:VirtualizedContainerService.HintSize="484,1400" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,629" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1183" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="ui:UiElement" Name="img1" />
               <Variable x:TypeArguments="ui:UiElement" Name="img2" />
+              <Variable x:TypeArguments="ui:UiElement" Name="img3" />
+              <Variable x:TypeArguments="ui:UiElement" Name="img4" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -119,29 +103,49 @@
             </sap:WorkflowViewStateService.ViewState>
             <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img1]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
               <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="33648b323fee2b1ae5f9662a63c7dd88" Selector="&lt;webctrl src='/static/media/image1.32c3c3df48b77fbd9441.jpg' tag='IMG' /&gt;" WaitForReady="COMPLETE">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="c29955dfbe89c5bea9a5a79c232f9590" Selector="&lt;webctrl src='/static/media/image5.8245de0b8d5d3a6526ba.jpg' tag='IMG' /&gt;" WaitForReady="COMPLETE">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
                 </ui:Target>
               </ui:WaitUiElementAppear.Target>
             </ui:WaitUiElementAppear>
-            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img1.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img1.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
             <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img2]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2">
               <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="7231038f8cb0ea58b0aa010f9f1b9c9e" Selector="&lt;webctrl src='/static/media/image3.5f3c338acd0367877baf.jpg' tag='IMG' /&gt;" WaitForReady="COMPLETE">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="d4c75f5d4e61616f472ed48e6c2c32a2" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='10' parentid='root' tag='DIV' /&gt;" WaitForReady="COMPLETE">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
                 </ui:Target>
               </ui:WaitUiElementAppear.Target>
             </ui:WaitUiElementAppear>
-            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img2.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img2.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img3]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_3">
+              <ui:WaitUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="08dc2f0b746e6ae7c438bdd8295d85c5" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='11' parentid='root' tag='DIV' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </ui:WaitUiElementAppear.Target>
+            </ui:WaitUiElementAppear>
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img3.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img4]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_4">
+              <ui:WaitUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="63aa4a6f512df511c1159692a858eec0" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='12' parentid='root' tag='DIV' /&gt;" WaitForReady="COMPLETE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </ui:WaitUiElementAppear.Target>
+            </ui:WaitUiElementAppear>
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img4.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="bff2e249c88ba36c67d5e6e68c911166.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/" />
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="864b5dc899c299b26755f8c464877241.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

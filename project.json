@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.12.0.0",
-  "projectVersion": "1.0.158491606",
+  "projectVersion": "1.0.158580017",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -103,39 +103,184 @@
         "fileName": "Test Cases\\Homepage\\Email.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "40cf36e6-8a5c-4320-a129-2be56ecaea48",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\Navigation\\Navigate_To_RESIDENTIAL_SERVICES.xaml"
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "24631cc3-8f7d-4752-9393-7062adfc3ee4",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "Test Cases\\Navigation\\Navigate_To_RESIDENTIAL_SERVICES - Copy (2).xaml"
-      },
-      {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "7399a6ed-55ba-4fb5-8cd1-879ec1e88e77",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\Navigation\\Navigate_To_COMMERCIAL_SERVICES.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "5bc4bff9-4a42-405b-99d7-09b564b6aabb",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\Navigation\\Navigate_To_SUSTAINABILITY.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "724b3596-2b29-4830-adca-c48d3684d36c",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Test Cases\\Navigation\\Navigate_To_CONTACT_US.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "24631cc3-8f7d-4752-9393-7062adfc3ee4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_HOMEPAGE.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d5892740-8efa-4f97-ab46-9d845bf13775",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test Cases\\Navigation\\Navigate_To_HOMEPAGE_From_Footer.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b32fae65-6c76-42d2-88ea-6b02fb8c454b",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_COMPACTORS_Images.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0f0154ac-9fda-4de1-beb6-e80aaa87be76",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_COMPACTORS_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "203deaf8-2276-4aa0-8a6e-ba21cc055777",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_Div_Gallery_Images.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "12eee818-508f-4dc5-a9f6-f33ce4754d58",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_Div_Gallery_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "410d3e76-1a12-426e-b2dc-4d3f185910ff",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_Div_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d04aefc7-5c79-4c2f-a586-7291486f60c4",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_Email.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6956f0c6-dbfe-4915-aca2-f39af4c15840",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_Footer_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "31006a91-fa90-49a3-98a4-f4e72da3db08",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_Phone_Number.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bb8ebf87-8c7c-4f7b-a2f3-8e8ba6161471",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_ROLL-OFF_SERVICES_Images.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6d08e48c-848c-4a3a-bd8e-c55a2e652808",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_ROLL-OFF_SERVICES_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "91c35126-b297-4e57-ac5f-6d7d010ec3b0",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_VerifyNavBarText.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "15af504d-619b-408c-a58d-f0fdbc15bb16",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_VerifySliderImage.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e9da989d-638a-4ae6-bd47-f10a21c90794",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\COMMERCIAL_SERVICES\\CS_VerifySliderText.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "17aaa72a-0b91-4bbf-a313-37c2b85a86ad",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_Div_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8d1186c5-6fcd-432e-8e9b-f46f807165db",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_Div2_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "34567c3d-9cb2-4b0b-89f2-e68f396a36c8",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_Email.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "30d14077-8117-4062-8c6e-401251883b24",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_Footer_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "75be3497-c656-4aea-b846-d142b89ee055",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_Phone_Number.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d5468e11-05c6-4dcc-9035-b796f8909061",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_SUSTAINABLE APPROACH_Images.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5768fbf8-5429-484e-ac29-f83368a8a69b",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_SUSTAINABLE APPROACH_Text.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c4e503d7-7476-40d2-96e7-15a2930cc9fc",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_VerifyNavBarText.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2eb163eb-c455-494b-8769-4bc8041e7a56",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_VerifySliderImage.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "21d38ed4-4fab-4234-908e-b3a2bfe16681",
+        "testCaseType": "TestCase",
+        "fileName": "Test Cases\\SUSTAINABILITY\\SUSTAINABILITY_VerifySliderText.xaml"
       }
     ],
     "saveToCloud": false

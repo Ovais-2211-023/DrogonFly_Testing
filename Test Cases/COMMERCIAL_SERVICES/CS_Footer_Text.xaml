@@ -3,41 +3,24 @@
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
-      <x:String>System.Activities.Expressions</x:String>
-      <x:String>System.Activities.Validation</x:String>
-      <x:String>System.Activities.XamlIntegration</x:String>
       <x:String>Microsoft.VisualBasic</x:String>
-      <x:String>Microsoft.VisualBasic.Activities</x:String>
       <x:String>System</x:String>
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
-      <x:String>System.Data</x:String>
-      <x:String>System.Diagnostics</x:String>
       <x:String>System.Drawing</x:String>
-      <x:String>System.IO</x:String>
-      <x:String>System.Linq</x:String>
-      <x:String>System.Net.Mail</x:String>
-      <x:String>System.Xml</x:String>
-      <x:String>System.Xml.Linq</x:String>
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
-      <x:String>System.Windows.Markup</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>UiPath.UIAutomationCore.Contracts</x:String>
-      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
       <x:String>UiPath.Testing</x:String>
       <x:String>UiPath.UIAutomationNext.Activities</x:String>
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
-      <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
-      <x:String>System.Reflection</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -98,7 +81,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Home" sap:VirtualizedContainerService.HintSize="484,773" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Commercial Services" sap:VirtualizedContainerService.HintSize="484,773" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -136,7 +119,7 @@
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="bff2e249c88ba36c67d5e6e68c911166.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/" />
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="c166d726533bc32e981677991b227cc7.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

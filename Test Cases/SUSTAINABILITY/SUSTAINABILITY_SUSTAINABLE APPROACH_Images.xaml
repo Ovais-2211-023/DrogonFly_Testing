@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,1022" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,745" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -95,53 +95,42 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="546,957" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="546,680" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Home" sap:VirtualizedContainerService.HintSize="484,846" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Sustainability" sap:VirtualizedContainerService.HintSize="484,569" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,629" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,352" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
-              <Variable x:TypeArguments="ui:UiElement" Name="img1" />
-              <Variable x:TypeArguments="ui:UiElement" Name="img2" />
+              <Variable x:TypeArguments="ui:UiElement" Name="img" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:WaitUiElementAppear WaitActive="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img1]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1" WaitVisible="True">
+            <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
               <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="40500826dae6fbb5d7c2f4f0cb7dbbc1" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='carouselSlide' tag='DIV' /&gt;" WaitForReady="COMPLETE">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="f8350ead2d900ba424cd2d18e8c3e0e4" Selector="&lt;webctrl src='/static/media/image12.b3df214d4476a137c9b9.jpg' tag='IMG' /&gt;" WaitForReady="COMPLETE">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
                 </ui:Target>
               </ui:WaitUiElementAppear.Target>
             </ui:WaitUiElementAppear>
-            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img1.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-            <ui:WaitUiElementAppear WaitActive="{x:Null}" DisplayName="Find Element 'DIV'" FoundElement="[img2]" sap:VirtualizedContainerService.HintSize="388,107" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2" WaitVisible="True">
-              <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b6be65a1-b241-4bf6-9945-2df02e144371" InformativeScreenshot="e9a4f58672a1e1fba731c6173c5d0271" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='carouselSlide' tag='DIV' /&gt;" WaitForReady="COMPLETE">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                </ui:Target>
-              </ui:WaitUiElementAppear.Target>
-            </ui:WaitUiElementAppear>
-            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img2.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[img.IsValid]" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="4fff8f21661d0cfbdd0454feee1d42f5.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/" />
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="ef9ec09bdea10131c8aa69221176b551.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Sustainability' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/sustainability" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>
