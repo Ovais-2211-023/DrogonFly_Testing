@@ -123,7 +123,7 @@
                 <InArgument x:TypeArguments="x:String">[tag]</InArgument>
               </uta:VerifyExpressionWithOperator.FirstExpression>
               <uta:VerifyExpressionWithOperator.SecondExpression>
-                <InArgument x:TypeArguments="x:String">["IMG"]</InArgument>
+                <InArgument x:TypeArguments="x:String">["DIV"]</InArgument>
               </uta:VerifyExpressionWithOperator.SecondExpression>
             </uta:VerifyExpressionWithOperator>
           </Sequence>
