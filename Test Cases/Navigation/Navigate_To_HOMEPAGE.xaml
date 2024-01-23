@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,1700" sap2010:WorkflowViewState.IdRef="TestCase_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,554" sap2010:WorkflowViewState.IdRef="TestCase_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -38,6 +38,7 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
       <x:String>System.Reflection</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -94,75 +95,96 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="568,1635" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Navigate_To_HOMEPAGE" sap:VirtualizedContainerService.HintSize="496,295" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Contact Us" sap:VirtualizedContainerService.HintSize="506,1524" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="472,1307" sap2010:WorkflowViewState.IdRef="Sequence_5">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="HomePage_Div_Text" />
-              <Variable x:TypeArguments="x:String" Name="Slidertxt" />
-              <Variable x:TypeArguments="x:Boolean" Name="result" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" DesignTimeRectangle="58, 95, 300, 155" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='headerlogo' /&gt;" Guid="08aab983-bcfa-45b9-be1e-fdb564abef6c" InformativeScreenshot="05fb5f924f780495f1d4fd10ea3182d3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NGetText DisplayName="Get Text 'Dragonfly Environmental'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" TextString="[Slidertxt]" Version="V3">
-              <uix:NGetText.Target>
-                <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" DesignTimeRectangle="158, 402, 666, 146" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Dragonfly Environmental'" FullSelectorArgument="&lt;webctrl idx='2' tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H1' class='MainBanner_heading__UOOtf' /&gt;" Guid="a6ae4db6-cd1a-4205-a220-f84206162ce5" ImageBase64="" InformativeScreenshot="dd57ce03b83c2e54fbc09f18dd9e5ca9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target DesignTimeRectangle="58, 147, 300, 155" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='headerlogo' /&gt;" SearchSteps="FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NGetText.Target>
-            </uix:NGetText>
-            <If Condition="[Slidertxt = &quot;Dragonfly Environmental Logistics has you covered.&quot; OR Slidertxt = &quot;Transformation, adaptability, renewal and responsibility.&quot;]" sap:VirtualizedContainerService.HintSize="410,798" sap2010:WorkflowViewState.IdRef="If_1">
-              <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="376,308" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" Result="[result]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Slidertxt]" />
-                </Sequence>
-              </If.Then>
-              <If.Else>
-                <Sequence sap:VirtualizedContainerService.HintSize="376,308" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" Result="[result]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[Slidertxt]" />
-                </Sequence>
-              </If.Else>
-            </If>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="2c0671fbd5091728dace4dd692d5d31f.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Contact Us' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/contact" />
-      </uix:NApplicationCard.TargetApp>
-    </uix:NApplicationCard>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,184" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Contact Us" sap:VirtualizedContainerService.HintSize="506,1707" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="472,1490" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="HomePage_Div_Text" />
+                  <Variable x:TypeArguments="x:String" Name="Slidertxt" />
+                  <Variable x:TypeArguments="x:Boolean" Name="result" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" DesignTimeRectangle="58, 95, 300, 155" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='headerlogo' /&gt;" Guid="08aab983-bcfa-45b9-be1e-fdb564abef6c" InformativeScreenshot="05fb5f924f780495f1d4fd10ea3182d3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NGetText DisplayName="Get Text 'Dragonfly Environmental'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" TextString="[Slidertxt]" Version="V3">
+                  <uix:NGetText.Target>
+                    <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" DesignTimeRectangle="158, 402, 666, 146" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Dragonfly Environmental'" FullSelectorArgument="&lt;webctrl idx='2' tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H1' class='MainBanner_heading__UOOtf' /&gt;" Guid="a6ae4db6-cd1a-4205-a220-f84206162ce5" ImageBase64="" InformativeScreenshot="dd57ce03b83c2e54fbc09f18dd9e5ca9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target DesignTimeRectangle="58, 147, 300, 155" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='headerlogo' /&gt;" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NGetText.Target>
+                </uix:NGetText>
+                <If Condition="[Slidertxt = &quot;Dragonfly Environmental Logistics has you covered.&quot; OR Slidertxt = &quot;Transformation, adaptability, renewal and responsibility.&quot;]" sap:VirtualizedContainerService.HintSize="410,798" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If.Then>
+                    <Sequence sap:VirtualizedContainerService.HintSize="376,308" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" Result="[result]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Slidertxt]" />
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence sap:VirtualizedContainerService.HintSize="376,308" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" Result="[result]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[Slidertxt]" />
+                    </Sequence>
+                  </If.Else>
+                </If>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="410,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Successfully Navigate to HOMEPAGE&quot;]" />
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="2c0671fbd5091728dace4dd692d5d31f.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Contact Us' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/contact" />
+          </uix:NApplicationCard.TargetApp>
+        </uix:NApplicationCard>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[exception.Message + &quot;Could not navigate to HOMEPAGE &quot;]" />
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
   </Sequence>
 </Activity>

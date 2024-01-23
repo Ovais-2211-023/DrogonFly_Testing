@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="VerifySliderText" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,1196" sap2010:WorkflowViewState.IdRef="VerifySliderText_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="VerifySliderText" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1057,2219" sap2010:WorkflowViewState.IdRef="VerifySliderText_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>GlobalConstantsNamespace</x:String>
@@ -26,6 +26,8 @@
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Reflection</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -78,81 +80,133 @@
       <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="VerifySliderText" sap:VirtualizedContainerService.HintSize="546,1131" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="VerifySliderText" sap:VirtualizedContainerService.HintSize="668,2154" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Commercial Services" sap:VirtualizedContainerService.HintSize="484,1020" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,803" sap2010:WorkflowViewState.IdRef="Sequence_10">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="Phone_num" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Call'" sap:VirtualizedContainerService.HintSize="388,257" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V3">
-              <uix:NMouseScroll.SearchedElement>
-                <uix:SearchedElement>
-                  <uix:SearchedElement.Target>
-                    <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" DesignTimeRectangle="678, 857, 525, 89" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Call now'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' parentid='root' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='root' tag='P' class='Footer_footerPara__qN6d4' aaname='Call: 888-DFLY-ENV (888-335-9368)Email: customerservice@dragonflyenvironmental.com' check:innerText='Call now for a quote.&amp;#xD;&amp;#xA;Call: 888-DFLY-ENV (888-335-9368)&amp;#xD;&amp;#xA;Email: customerservice' /&gt;" Guid="a1d7a65f-0355-4171-9d12-75b21f43b471" InformativeScreenshot="d097dd2bd7b66b33eb307de6f7bfe904.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-                      <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                          <uix:Target CvTextArea="155, 863, 431, 60" CvTextArgument="DRAGONFLY" CvType="Text" DesignTimeRectangle="155, 863, 432, 60" ElementType="Text" FriendlyName="'DRAGONFLY'" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                        </scg:List>
-                      </uix:TargetAnchorable.Anchors>
-                    </uix:TargetAnchorable>
-                  </uix:SearchedElement.Target>
-                  <uix:SearchedElement.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:SearchedElement.Timeout>
-                </uix:SearchedElement>
-              </uix:NMouseScroll.SearchedElement>
-              <uix:NMouseScroll.Target>
-                <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" CvTextArea="723, 888, 300, 26" CvTextArgument="888-DFLY-ENV (888-335-9368)" CvType="Text" DesignTimeRectangle="722, 888, 301, 26" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Call'" Guid="74f34864-5ebb-4225-850d-903ad4d933e2" InformativeScreenshot="5fbaf257d22550d34aff017e10acc06d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CvTextArea="676, 892, 45, 19" CvTextArgument="Call:" CvType="Text" DesignTimeRectangle="677, 892, 44, 19" ElementType="Text" FriendlyName="'Call'" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NMouseScroll.Target>
-            </uix:NMouseScroll>
-            <uix:NGetText DisplayName="Get Text 'Call'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" TextString="[Phone_num]" Version="V3">
-              <uix:NGetText.Target>
-                <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" CvTextArea="723, 887, 300, 26" CvType="AnyWordGroup" DesignTimeRectangle="723, 887, 300, 26" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Call'" Guid="bfb24ad3-37e8-4699-b0e5-92bf838c1ac2" ImageBase64="" InformativeScreenshot="cd74dd4400da51b22f0693d5b1397dce.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Visible">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CvTextArea="676, 891, 45, 19" CvTextArgument="Call:" CvType="Text" DesignTimeRectangle="677, 891, 44, 19" ElementType="Text" FriendlyName="'Call'" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NGetText.Target>
-            </uix:NGetText>
-            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="388,194" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
-              <uta:VerifyExpressionWithOperator.FirstExpression>
-                <InArgument x:TypeArguments="x:String">[Phone_num]</InArgument>
-              </uta:VerifyExpressionWithOperator.FirstExpression>
-              <uta:VerifyExpressionWithOperator.SecondExpression>
-                <InArgument x:TypeArguments="x:String">["DFLY"]</InArgument>
-              </uta:VerifyExpressionWithOperator.SecondExpression>
-            </uta:VerifyExpressionWithOperator>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="c166d726533bc32e981677991b227cc7.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" />
-      </uix:NApplicationCard.TargetApp>
-    </uix:NApplicationCard>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="606,2043" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Dragonfly Environmental Logistics - Commercial Services" sap:VirtualizedContainerService.HintSize="568,1815" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence sap:VirtualizedContainerService.HintSize="534,1598" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="472,1485" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="Phone_num" />
+                    <Variable x:TypeArguments="x:Boolean" Name="res" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Call now'" sap:VirtualizedContainerService.HintSize="410,257" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" Timeout="10000" Version="V3">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" CvTextArea="723, 888, 300, 25" CvTextArgument="888-DFLY-ENV (888-335-9368)" CvType="Text" DesignTimeRectangle="723, 887, 301, 26" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Call'" Guid="2eb1d7f1-b4bc-45ee-a326-e50302062dfe" InformativeScreenshot="7ca66fffa5adece8b2f412f84a2ef5f9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CvTextArea="676, 891, 45, 19" CvTextArgument="Call:" CvType="Text" DesignTimeRectangle="677, 891, 44, 19" ElementType="Text" FriendlyName="'Call'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <uix:NMouseScroll.Target>
+                      <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" DesignTimeRectangle="8, 709, 1903, 331" DesignTimeScaleFactor="1" FriendlyName="'Call now'" FullSelectorArgument="&lt;webctrl class='Footer_footer__kXlYa' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='Footer_footer__kXlYa' parentid='root' tag='DIV' type='' aaname='' check:innerText='Call now for a quote.&amp;#xD;&amp;#xA;Call: 888-DFLY-ENV (888-335-9368)&amp;#xD;&amp;#xA;Email: customerservice' /&gt;" Guid="50db77d5-debd-46f9-b796-b3f17d741b55" InformativeScreenshot="d72578d0649e35212f970c0d68897eb2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NMouseScroll.Target>
+                  </uix:NMouseScroll>
+                  <uix:NGetText DisplayName="Get Text 'Call'" sap:VirtualizedContainerService.HintSize="410,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f3f36fc3-0e07-4822-b4e5-6f50dd3863b4" TextString="[Phone_num]" Version="V3">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://prod--profound-fenglisu-015899.netlify.app/" CvTextArea="723, 887, 300, 26" CvType="AnyWordGroup" DesignTimeRectangle="723, 887, 300, 26" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Call'" Guid="bfb24ad3-37e8-4699-b0e5-92bf838c1ac2" ImageBase64="" InformativeScreenshot="cd74dd4400da51b22f0693d5b1397dce.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Home' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Visible">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CvTextArea="676, 891, 45, 19" CvTextArgument="Call:" CvType="Text" DesignTimeRectangle="677, 891, 44, 19" ElementType="Text" FriendlyName="'Call'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="410,194" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Contains" Result="[res]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                    <uta:VerifyExpressionWithOperator.FirstExpression>
+                      <InArgument x:TypeArguments="x:String">[Phone_num]</InArgument>
+                    </uta:VerifyExpressionWithOperator.FirstExpression>
+                    <uta:VerifyExpressionWithOperator.SecondExpression>
+                      <InArgument x:TypeArguments="x:String">["DLY"]</InArgument>
+                    </uta:VerifyExpressionWithOperator.SecondExpression>
+                  </uta:VerifyExpressionWithOperator>
+                  <If Condition="[res = True]" sap:VirtualizedContainerService.HintSize="410,644" sap2010:WorkflowViewState.IdRef="If_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="376,231" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Verification failed. The expression 'Phone_num' with value '888-DFLY-ENV (888-335-9368)' contains the expression 'DFLY'&quot;]" />
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence sap:VirtualizedContainerService.HintSize="376,231" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;Verification failed. The expression 'Phone_num' with value '888-DFLY-ENV (888-335-9368)' was not containing the expression 'DLY'&quot;]" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVDhPvdHPK8NhAMfx0UzT7MLZgc1msvKjLTd/xP4AFyeJpuTgR5aS5O5kf4CUpGZs2UaZzUFYaYpMUkuJgym1x/v57vmyZsuJT70uez6f7/P9NsO/JJn1mtCOIbSon38PZSt82MA9cnCp49qhVA952y7eIZRDWFWteiiY4Uce+lA3o2rVQ8GCFZTfqrtD7dfnsBFL+MDX8KSkeJz1Bib2bGZ/xG6djNibYVLTUiiP4K1sJBJXHrF93ieCaXdh9sARZhxlmEISISzoYzdu5Eg+YD8zINbT7uJioktMRTsFQ0G50gvG5NiINTmOc2Pw1F2cizm0kRoWy0a6V4zDKB8wyPgxdNkvlo9cWqHsxmrjHIZh1F4/de1dld85H3P+NixgCx7UaWOZzbPeTMW40jN24INFzb4TiDtjjG85zOMJD7iAvG0aXjSp+s+Mhjvk/9qGbvTAhlY0qMpfxmD4BJHNVijBqjNQAAAAAElFTkSuQmCC" InformativeScreenshot="c166d726533bc32e981677991b227cc7.jpg" Selector="&lt;html app='chrome.exe' title='Dragonfly Environmental Logistics - Commercial Services' /&gt;" Title="Dragonfly Environmental Logistics - Home" Url="https://prod--profound-fenglisu-015899.netlify.app/commercial-services" />
+          </uix:NApplicationCard.TargetApp>
+        </uix:NApplicationCard>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="572,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[exception.Message]" />
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
   </Sequence>
 </Activity>
